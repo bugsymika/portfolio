@@ -1,0 +1,100 @@
+body {
+  background-image: url(./polaroid.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.title {
+  font-family: "Lobster", cursive;
+  font-size: 3em;
+  position: relative;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.polaroidFrame {
+  width: 200px;
+  height: 260px;
+  background-color: seashell;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.polaroidPictureGithub {
+  width: 160px;
+  height: 175px;
+  background-image: url(./github.svg),
+    linear-gradient(to bottom, rgb(69, 221, 89), rgb(61, 132, 212));
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100%;
+  background-position: center;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.polaroidText {
+  width: 180px;
+  height: 60px;
+  left: 10px;
+  font-family: "Permanent Marker", cursive;
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+  font-size: 1.25em;
+  text-align: center;
+  color: black;
+}
+
+.polaroidPictureTurkey {
+  width: 160px;
+  height: 175px;
+  background-image: url(./turkey.png),
+    linear-gradient(to bottom, brown, rgb(255, 166, 0));
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100%;
+  background-position: center;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.polaroidPictureGym {
+  width: 160px;
+  height: 175px;
+  background-image: url(./dumbbell.png),
+    linear-gradient(to bottom, rgb(211, 38, 38), rgb(25, 171, 230));
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100%;
+  background-position: center;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.container {
+  margin-right: 100px;
+}
